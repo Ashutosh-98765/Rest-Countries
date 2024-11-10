@@ -37,6 +37,8 @@ const Navbar = ({
     }
   };
 
+ 
+
   const handleSubRegions = (e) => {
     const selectedSubRegion = e.target.value;
     setFilterBySubRegion(selectedSubRegion);
@@ -49,6 +51,10 @@ const Navbar = ({
   const handleCountrySearch = (e) => {
     setSearchCountries(e.target.value);
   };
+
+
+
+
   return (
     <div
       className={`flex flex-col h-auto p-10 sm:flex-row justify-between w-full sm:h-20 border-box sm:pl-16 sm:pr-16 ${
