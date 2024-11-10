@@ -38,8 +38,8 @@ const Homepage = () => {
       searchCountries,
       filterByRegion,
       filterBySubRegion,
-      sortBySelected
-    );
+      sortBySelected,
+      );
     setFilteredCountries(filteredCountries);
   }, [
     countries,
